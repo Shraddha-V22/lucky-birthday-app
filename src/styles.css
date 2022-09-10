@@ -1,0 +1,109 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+:root {
+  --primary-first: #134e4a;
+  --primary-second: #b2f7b2;
+  --primary-third: #02201e;
+  --light-color: #c5eedb;
+}
+
+#title {
+  color: var(--primary-second);
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--light-color);
+  margin-bottom: 3rem;
+}
+
+body {
+  max-width: 550px;
+  margin: auto;
+  margin-top: 1rem;
+  background-color: var(--primary-first);
+}
+
+input {
+  display: block;
+  width: 50%;
+  margin: auto;
+  padding: 0.3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: var(--light-color);
+  border-radius: 0.3rem;
+  border: 2px solid var(--primary-third);
+}
+
+label {
+  font-weight: bold;
+  color: var(--primary-second);
+}
+
+#checkBtn {
+  padding: 0.3rem 1rem;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 0.3rem;
+  background-color: var(--primary-first);
+  border-top: 2px solid var(--primary-second);
+  border-left: 2px solid var(--primary-second);
+  border-bottom: 2px solid var(--primary-third);
+  border-right: 2px solid var(--primary-third);
+  color: var(--primary-second);
+}
+
+#outputMsg {
+  color: var(--primary-second);
+  font-size: larger;
+  padding: 1rem;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.footer {
+  margin-top: 1rem;
+  padding-inline: 0.5rem;
+  background-color: var(--light-color);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  font-size: large;
+  color: var(--primary-third);
+  padding-inline-start: 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding-inline-start: 0;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  font-size: 28px;
+  color: var(--primary-first);
+}
+
+.footer ul li a:hover {
+  color: var(--primary-third);
+}
+
+.footer ul li {
+  padding: 0.5rem;
+}
+
+hr {
+  border: 1px solid var(--primary-first);
+}
+
+.footer p {
+  font-size: small;
+  max-width: 20rem;
+  margin-inline: auto;
+  color: var(--primary-first);
+}
